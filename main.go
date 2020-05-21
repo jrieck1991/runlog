@@ -4,7 +4,8 @@ import (
 	"io"
 	"net/http"
 	_ "net/http/pprof"
-	"sandbox/runlog/internal/app"
+
+	"github.com/jrieck1991/runlog/internal/app"
 
 	log "github.com/sirupsen/logrus"
 )
