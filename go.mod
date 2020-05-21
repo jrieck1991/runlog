@@ -1,4 +1,4 @@
-module sandbox/runlog
+module github.com/jrieck1991/runlog
 
 go 1.14
 
