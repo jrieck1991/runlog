@@ -18,9 +18,9 @@ func init() {
 
 func main() {
 	go func() {
-		app.Do()
+		serve()
 	}()
-	serve()
+	app.Do()
 }
 
 func serve() error {
